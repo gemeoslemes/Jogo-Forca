@@ -70,3 +70,29 @@ Já está função seria quando o usuário dentro das 7 chances da **desenha_for
         print("           ) (          ")
         print("         _.' '._        ")
         print("        '-------'       ")
+
+
+- Função **imprime_mensagem_perdedor(palavra_secreta):**<br><br>
+Como na fução anterior, essa aqui acaba tendo um comportamento parecido, só que quando você acaba errando as 7 tentativas essa função é executada, mostrando uma mensagens e uma "animacão".
+
+
+      def imprime_mensagem_perdedor(palavra_secreta):
+        print("Puxa, você foi enforcado!")
+        print("A palavra era {}".format(palavra_secreta))
+        print("    _______________         ")
+        print("   /               \       ")
+        print("  /                 \      ")
+        print("//                   \/\  ")
+        print("\|   XXXX     XXXX   | /   ")
+        print(" |   XXXX     XXXX   |/     ")
+        print(" |   XXX       XXX   |      ")
+        print(" |                   |      ")
+        print(" \__      XXX      __/     ")
+        print("   |\     XXX     /|       ")
+        print("   | |           | |        ")
+        print("   | I I I I I I I |        ")
+        print("   |  I I I I I I  |        ")
+        print("   \_             _/       ")
+        print("     \_         _/         ")
+        print("       \_______/           ")
+
