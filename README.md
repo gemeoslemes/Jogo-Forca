@@ -73,7 +73,7 @@ Já está função seria quando o usuário dentro das 7 chances da **desenha_for
 
 
 - Função **imprime_mensagem_perdedor(palavra_secreta):**<br><br>
-Como na fução anterior, essa aqui acaba tendo um comportamento parecido, só que quando você acaba errando as 7 tentativas essa função é executada, mostrando uma mensagens e uma "animacão".
+Como na fução anterior, essa aqui acaba tendo um comportamento parecido, só que quando você acaba errando as 7 tentativas essa função é executada, mostrando uma mensagens e uma "animação".
 
 
       def imprime_mensagem_perdedor(palavra_secreta):
